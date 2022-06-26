@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 17 09:03:46 2022
+# Process ID: 17424
+# Current directory: D:/proj/4.4CPU/mySCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9500 D:\proj\4.4CPU\mySCPU\mySCPU.xpr
+# Log file: D:/proj/4.4CPU/mySCPU/vivado.log
+# Journal file: D:/proj/4.4CPU/mySCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/proj/4.4CPU/mySCPU/mySCPU.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/proj/4.4CPU/mySCPU/mySCPU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1088.762 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir d:/proj/4.4cpu/myscpu/myscpu.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new'
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new'
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/proj/4.4CPU/mySCPU/mySCPU.srcs/sources_1/new'
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 17 09:44:30 2022...
