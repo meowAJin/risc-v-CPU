@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mySCPU.srcs/sources_1/new/ALU.v" \
+"../../../../mySCPU.srcs/sources_1/new/Ex.v" \
+"../../../../mySCPU.srcs/sources_1/new/ExMem.v" \
+"../../../../mySCPU.srcs/sources_1/new/ID.v" \
+"../../../../mySCPU.srcs/sources_1/new/IDEx.v" \
+"../../../../mySCPU.srcs/sources_1/new/IF.v" \
+"../../../../mySCPU.srcs/sources_1/new/IFID.v" \
+"../../../../mySCPU.srcs/sources_1/new/ImmGen.v" \
+"../../../../mySCPU.srcs/sources_1/new/MUX4T1.v" \
+"../../../../mySCPU.srcs/sources_1/new/Mem.v" \
+"../../../../mySCPU.srcs/sources_1/new/MemWB.v" \
+"../../../../mySCPU.srcs/sources_1/new/PC.v" \
+"../../../../mySCPU.srcs/sources_1/new/READMUX.v" \
+"../../../../mySCPU.srcs/sources_1/new/Regs.v" \
+"../../../../mySCPU.srcs/sources_1/new/WB.v" \
+"../../../../mySCPU.srcs/sources_1/new/WEAMUX.v" \
+"../../../../mySCPU.srcs/sources_1/new/myctrl.v" \
+"../../../../mySCPU.srcs/sources_1/new/stall.v" \
+"../../../../mySCPU.srcs/sources_1/new/mySCPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 31 16:28:35 2022
+# Process ID: 53760
+# Current directory: D:/proj/5.2CPU/mySCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent68280 D:\proj\5.2CPU\mySCPU\mySCPU.xpr
+# Log file: D:/proj/5.2CPU/mySCPU/vivado.log
+# Journal file: D:/proj/5.2CPU/mySCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/proj/5.2CPU/mySCPU/mySCPU.xpr
+INFO: [Project 1-313] Project file moved from 'D:/proj/5.1CPU/mySCPU' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/proj/5.2CPU/mySCPU/mySCPU.gen/sources_1', nor could it be found using path 'D:/proj/5.1CPU/mySCPU/mySCPU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 1083.125 ; gain = 0.000
+update_compile_order -fileset sources_1
+close [ open D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/stall.v w ]
+add_files D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/stall.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mySCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mySCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/ExMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/IDEx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/MUX4T1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/MemWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/READMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module READMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/WEAMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WEAMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/myctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/mySCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mySCPU
+INFO: [VRFC 10-2458] undeclared symbol MemRW_in_Mem, assumed default net type wire [D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/mySCPU.v:346]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1083.125 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim'
+"xelab -wto e0b5bec0f4f74ec493397f517943ba07 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mySCPU_behav xil_defaultlib.mySCPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e0b5bec0f4f74ec493397f517943ba07 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mySCPU_behav xil_defaultlib.mySCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'Rd_addr_in_IDEX' [D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/mySCPU.v:249]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'Data_out_in' [D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/Mem.v:48]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'Data_out' [D:/proj/5.2CPU/mySCPU/mySCPU.srcs/sources_1/new/Mem.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.stall
+Compiling module xil_defaultlib.MUX4T1
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.myctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.IDEx
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Ex
+Compiling module xil_defaultlib.ExMem
+Compiling module xil_defaultlib.READMUX
+Compiling module xil_defaultlib.WEAMUX
+Compiling module xil_defaultlib.Mem
+Compiling module xil_defaultlib.MemWB
+Compiling module xil_defaultlib.WB
+Compiling module xil_defaultlib.mySCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mySCPU_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim/xsim.dir/mySCPU_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim/xsim.dir/mySCPU_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Jun  1 14:01:24 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun  1 14:01:24 2022...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 1083.125 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/proj/5.2CPU/mySCPU/mySCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mySCPU_behav -key {Behavioral:sim_1:Functional:mySCPU} -tclbatch {mySCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mySCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1083.125 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mySCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1083.125 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1083.125 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  2 00:12:29 2022...
